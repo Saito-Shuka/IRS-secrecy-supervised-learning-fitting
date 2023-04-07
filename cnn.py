@@ -8,7 +8,6 @@ from tensorflow.keras import models, layers, regularizers
 from tensorflow.keras.optimizers import Adam
 import matplotlib.pyplot as plt
 import tensorflow as tf
-
 epochs =1000
 
 data_ae = sio.loadmat("data_AE.mat")
